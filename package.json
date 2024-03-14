@@ -1,0 +1,14 @@
+{
+  "name": "portfoilo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx sass scss/init.scss:dist/app.css --watch --style=compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.71.1"
+  }
+}

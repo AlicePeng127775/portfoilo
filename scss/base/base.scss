@@ -1,0 +1,54 @@
+@use"functions.scss" as f;
+@use"variables.scss" as v;
+
+body{
+    background-color: black;
+    font-size: f.toRem(32);
+}
+
+h1{
+    font-size: v.$text-xxxl;
+}
+
+h2{
+    font-size: v.$text-xxl;
+}
+
+h3{
+    font-size: v.$text-xl;
+}
+
+h4{
+    font-size: v.$text-lg;
+}
+
+h5{
+    font-size: v.$text-md;
+}
+
+h6{
+    font-size: v.$text-sm;
+}
+
+p{
+    font-size: v.$text-base;
+}
+
+ul, ol {
+    margin-left: f.toRem(v.$baseUnit);
+}
+
+main{
+    margin:f.toRem(v.$baseUnit);
+}
+
+.s-content {
+
+    *:not(li){
+        margin-bottom: f.toRem(16);   
+    }
+    li {
+        margin-bottom: f.toRem(8);
+    }
+
+}
