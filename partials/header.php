@@ -1,27 +1,34 @@
+
 <header class='header'>
-        <img src="./img/logo/logo.png" alt="logo">
+       <div class='logo'><a href="home.php"> <img src="./img/logo/logo.png" alt="logo"></a></div>
 
         <div>
             <nav class="navigation">
-				<ul>
-					<li><a href="home.php">HOME</a></li>
+			
 					<li><a href="about.php">ABOUT</a></li>
 					<li><a href="portfoilo.php">PORTFOILO</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
-				</ul>
+			
 			</nav>
 
-            <input id="menu-toggle" type="checkbox" />
-		    <label class='menu-button-container' for="menu-toggle">
-		    <div class='menu-button'></div> </label>
+            <div class="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
 			
-			<ul class="menu">
-					<li><a href="home.php">HOME</a></li>
-					<li><a href="about.php">ABOUT</a></li>
-					<li><a href="portfoilo.php">PORTFOILO</a></li>
-                    <li><a href="contact.php">CONTACT</a></li>
-			</ul>		
-		
         </div>
+
+        <script>
+        
+            const menuButton = document.querySelector('.mobile-menu');
+            const nav = document.querySelector('.navigation');
+
+            menuButton.addEventListener('click', function() {
+            nav.classList.toggle('showMenu');
+            menuButton.classList.toggle('active');
+            });
+
+        </script>
 
 </header>

@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sass": "^1.71.1"
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.71.1",
+    "save": "^2.9.0"
   }
 }

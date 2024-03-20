@@ -1,0 +1,26 @@
+@use"base/variables.scss" as v;
+@use "base/functions.scss" as f;
+
+.projectInfo {
+    div{
+        align-items: baseline;
+        a{
+            align-items: center;
+            i{
+                color: v.$yellow;
+                margin-right: 5px;
+            }
+        }
+
+        a:hover i{
+            color: v.$black;
+        }
+    }
+
+
+
+    p{
+        width: 90%;
+        margin: 20px auto;
+    }
+}

@@ -4,19 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
+    <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <title> Welcome to Alice's Web</title>
 </head>
 <body>
     <!----------------- header ------------------>
     <?php require_once("partials/header.php") ?>
     <!------------------------------------------->
-    <main>
+    <main class='container'>
+        <div class='homeIntro'>
+            <div class='planet'>
+                    <div class='cube1'><img src='./img/planet/_cube.png'></div>
+                    <div class='mars'><img src='./img/planet/_mars.png'></div>
+                    <div class='earth'><img src='./img/planet/_earth.png'></div>
+                    <div class='stellite'><img src='./img/planet/_satellite.png'></div>
+                    <div class='cube2'><img src='./img/planet/_cube.png'></div>
+            </div>
+            <div class='bg'>
+                    <div class='cubeBg1'><img src='./img/planet/_cube.png'></div>
+                    <div class='cubeBg2'><img src='./img/planet/_cube.png'></div>
+                    <div class='cubeBg3'><img src='./img/planet/_cube.png'></div>
+                    <div class='cubeBg4'><img src='./img/planet/_cube.png'></div>
+                    <div class='cubeBg5'><img src='./img/planet/_cube.png'></div>
+                    <div class='cubeBg6'><img src='./img/planet/_cube.png'></div>
+                </div>
 
-    
+        
+            <div class='intro' data-aos="zoom-in-up"> 
+                <h2>
+                    <span class='echo'>echo</span> Hello ! <br> I'm <span class='alice'>Aliccccce :></span><br>
+                    FRONT - END DEVELOPER <br>
+                    and DESINGER <br>
+                </h2>
+
+                <h6>Nice to meet you here 👋 </h6>
+
+                <a href="about.php">Start exploring my site</a>
+            </div>
+        </div>
     </main>
-
+    <div class='content-wrap'></div>
     <!----------------- footer ------------------>
     <?php require_once("partials/footer.php") ?>
     <!------------------------------------------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src='js/app.js/'></script>
 </body>
 </html>

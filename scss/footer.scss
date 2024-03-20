@@ -2,8 +2,23 @@
 @use "base/functions.scss" as f;
 
 
+/*-----------------------------------*\
+  Footer
+\*-----------------------------------*/
+
 footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    div{
+        font-size: 10px;
+        font-family: "Balsamiq Sans", sans-serif;
+        font-weight: 400;      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: v.$pc;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: v.$black;
+        height: 24px;
+    }
 }

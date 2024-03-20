@@ -1,0 +1,111 @@
+@use"base/variables.scss" as v;
+@use "base/functions.scss" as f;
+
+.aboutMe{
+    color: v.$pc;
+    align-items: last baseline;
+    // border: 1px solid red;
+    .photo{
+        img{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    .info{
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        p{
+            margin: 20px auto;
+            line-height: 180%;
+            color: v.$gray;
+        }
+
+
+    .contactIcon{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        margin-bottom: 0;
+        
+        div{
+            width: 60px;
+            height: 60px;
+            background-color:v.$icb;
+            border-radius: 50%;
+            color: v.$gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                i{
+                    color:v.$pc;
+                }
+            }
+
+
+        }
+
+        div:hover{
+            background-color: v.$pink;
+            color: v.$black;
+            box-shadow: 0 0 10px v.$pink;
+        }
+    }
+
+}
+}
+
+.coding,
+.design{
+    align-items: center;
+}
+
+.skill{
+    h2{
+        margin-top: 50px;
+        font-size: v.$text-lg;
+        color: v.$white;
+    }
+}
+.skillCard{
+    max-width:180px;
+    border-radius: 20%;
+    padding: 10%;
+    margin-top: 20px;
+    background-color: v.$black002;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ 
+    .iconC {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: v.$pc3;
+        img{
+             width: 60%;
+        }
+    }
+
+    p{
+        margin-top: 20px;
+        color: v.$pc;
+    }
+}
+
+.skillCard:hover{
+    background-color: black;
+
+ }
+
+ .skillCard:hover .iconC{
+    background-color: v.$pc;  
+}
