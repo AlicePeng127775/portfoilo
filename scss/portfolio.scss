@@ -1,0 +1,87 @@
+@use"base/variables.scss" as v;
+@use "base/functions.scss" as f;
+ 
+.portfolioTitle{
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h5{
+        color: v.$pc;
+    }
+
+    p{
+        margin: 20px;
+        line-height: 150%;
+        text-align: center;
+        color:v.$gray;
+    }
+}
+.project{
+    margin: 40px;
+    background-color: #0e0e0e;
+    border-radius: 30px;
+    border: 0.5px solid #2f2f2f;
+    .projectImg{        
+        img{
+            width: 100%;
+        }
+    }
+
+    .projectInfo{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: start;
+        padding: 24px;
+        
+       h4{
+        color:v.$pc;
+       }
+
+       p{
+        color:v.$gray;
+        line-height: 150%;
+       }
+
+       a{
+            width: 180px;
+            height: 40px;
+            position: relative;
+            padding: 10px 30px;
+            font-size: v.$text-base;
+            text-decoration: none;
+            cursor: pointer;
+            color:v.$yellow;
+            border: 0.5px solid v.$yellow;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top:20px;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        a:hover{
+            background-color: v.$yellow;
+            color: v.$black;
+            box-shadow: 0 0 40px v.$yellow;
+        }    
+    }
+}  
+ 
+@media screen and (min-width: 834px)  {
+    .project:nth-child(even) .projectImg {
+        order: 2;
+      }
+    
+      .project:nth-child(even) .projectInfo{
+        text-align: end;
+        a{
+            margin-left: auto;
+        }
+    
+      }
+}
+
+    

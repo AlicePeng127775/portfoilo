@@ -1,26 +1,66 @@
 @use"base/variables.scss" as v;
 @use "base/functions.scss" as f;
 
+
+// html * {
+//     border: 1px solid blue;
+// }
+
 .projectInfo {
     div{
         align-items: baseline;
-        a{
-            align-items: center;
-            i{
-                color: v.$yellow;
-                margin-right: 5px;
-            }
-        }
 
-        a:hover i{
-            color: v.$black;
-        }
     }
-
-
-
     p{
         width: 90%;
         margin: 20px auto;
     }
 }
+
+.linkBtn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    
+    a{
+        margin-left: 5px;
+        align-items: center;
+        i{
+            color: v.$yellow;
+            margin-right: 5px;
+        }
+    }
+
+    a:hover i{
+        color: v.$black;
+    }
+
+}
+
+.other{
+    font-size: v.$text-md;
+    color: v.$pc;
+}
+
+.ontherProject{
+    .project{
+
+        margin:50px auto;
+        padding: 20px;
+        .projectInfo{
+            text-align: start;
+        }
+
+        a{
+            margin-right: auto;
+        }
+    }  
+}
+
+ 
+@media screen and (min-width: 1080px)  {
+.linkBtn{
+    display: inline;
+}
+}
+

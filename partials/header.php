@@ -6,7 +6,7 @@
             <nav class="navigation">
 			
 					<li><a href="about.php">ABOUT</a></li>
-					<li><a href="portfoilo.php">PORTFOILO</a></li>
+					<li><a href="portfolio.php">PORTFOLIO</a></li>
                     <li><a href="contact.php">CONTACT</a></li>
 			
 			</nav>

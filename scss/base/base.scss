@@ -2,7 +2,12 @@
 @use"variables.scss" as v;
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+@font-face {
+    font-family: 'Chinese';
+    src: url('../font/AaTianMeiXinDongNaiLaoTi-2.woff') format("woff"),
+           url('../font/AaTianMeiXinDongNaiLaoTi-2.ttf') format("truetype"),
+           url('../font/AaTianMeiXinDongNaiLaoTi-2.eot') format("embedded-opentype");
+  }
 
 body{
     background-color:v.$bgc;
@@ -62,6 +67,10 @@ p{
 
 ul, ol {
     margin-left: f.toRem(v.$baseUnit);
+}
+
+.chinese {
+    font-family: 'Chinese';
 }
 
 main{

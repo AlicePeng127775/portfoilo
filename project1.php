@@ -6,15 +6,15 @@
     <link rel="stylesheet" href="dist/app.css">
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title> Welcome to Alice's Web</title>
+    <title> Alice's Project</title>
 </head>
 <body>
     <!----------------- header ------------------>
     <?php require_once("partials/header.php") ?>
     <!------------------------------------------->
     <main>
-    <div class='portfoiloTitle'>
-        <h5>My Portfoilo</h5>
+    <div class='portfolioTitle'>
+        <h5>My Portfolio</h5>
         <p>Explore my latest portfolio of web development projects<br>
          covering a wide range of areas from HTML , CSS, JavaScript,<br>
           Visual Studio Code, UI/UX animation to WordPress and React.</p>
@@ -23,9 +23,12 @@
         <div class='project grid'>
             <div class='projectInfo col-12'>
                 <div class='grid'>
-                    <h4 class='col-8'>Little Fish Cares Animal Adoption Website</h4> 
-                    <a class='col-2'><i class="fa-solid fa-link"></i>Lauch Site</a>
-                    <a class='col-2'><i class="fa-brands fa-github"></i> View Code</a>
+                    <h4 class='col-12 col-8-md'>Little Fish Cares Animal Adoption Website</h4> 
+                    <div class='linkBtn col-12 col-4-md '>
+                        <a><i class="fa-solid fa-link"></i>Lauch Site</a>
+                        <a><i class="fa-brands fa-github"></i> View Code</a>
+                    </div>
+
                 </div>
 
                 <p>Tool：HTML , CSS, JavaScript, Visual Studio Code,  Figma, illusttetor</p>
@@ -45,30 +48,35 @@
             <div class='projectImg col-12'><img src='./img/project/project1.png' alt="little fish cares website"></div>
 
         </div>
-
-        <div class='project grid'>
-            <div class='projectImg col-12 col-4-sm'><img src='./img/project/project2.png'  alt="Lumina online shopping Website"></div>
-            <div class='projectInfo col-12'>
+        <h2 class='other'>Other Project</h2>
+        <div class='ontherProject container grid'>
+           
+        <div class='project col-12 col-4-lg'>
+            <div class='projectImg'><img src='./img/project/project2.png'  alt="Lumina online shopping Website"></div>
+            <div class='projectInfo'>
                 <h4>Lumina online shopping Website</h4>
                 <a href='project2.php' class='viweBtn'> Viwe Project</a>
             </div>
         </div>
 
-        <div class='project grid'>
-            <div class='projectImg col-12 col-4-sm'><img src='./img/project/project3.png' alt="Whac-A-Mole Website Game"></div>
-            <div class='projectInfo col-12'>
+        <div class='project col-12 col-4-lg'>
+            <div class='projectImg'><img src='./img/project/project3.png' alt="Whac-A-Mole Website Game"></div>
+            <div class='projectInfo'>
                 <h4>Whac-A-Mole Website Game</h4>
                 <a href='project3.php' class='viweBtn'> Viwe Project</a>
             </div>
         </div>
 
-        <div class='project grid'>
-            <div class='projectImg col-12 col-4-sm '><img src='./img/project/project4.png' alt="October shopping app design"></div>
-            <div class='projectInfo col-12-sm col-6-lg'>
+        <div class='project col-12 col-4-lg'>
+            <div class='projectImg'><img src='./img/project/project4.png' alt="October shopping app design"></div>
+            <div class='projectInfo'>
                 <h4>October shopping app design</h4>
                 <a href='project4.php' class='viweBtn'> Viwe Project</a>
             </div>
         </div>
+        </div>
+
+ 
     </div>
     <div class='content-wrap'></div>
     </main>

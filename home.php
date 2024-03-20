@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
+    <!-- aos Animate On Scroll Library -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Jquery -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<!-- Typer js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.css" />
+    <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <title> Welcome to Alice's Web</title>
 </head>
@@ -30,9 +39,9 @@
                 </div>
 
         
-            <div class='intro' data-aos="zoom-in-up"> 
+            <div class='intro'> 
                 <h2>
-                    <span class='echo'>echo</span> Hello ! <br> I'm <span class='alice'>Aliccccce :></span><br>
+                    <span class='echo'>echo</span> Hello ! <br> I'm <span class='alice' id='element'></span><br>
                     FRONT - END DEVELOPER <br>
                     and DESINGER <br>
                 </h2>
@@ -47,7 +56,19 @@
     <!----------------- footer ------------------>
     <?php require_once("partials/footer.php") ?>
     <!------------------------------------------->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src='js/app.js/'></script>
+    
+    <script src='./js/app.js/'></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script> -->
+    <script>
+        const typed = new Typed('#element', {
+                    strings: ['Aliccccce :>', 'Zi Yuan Peng :)','Alice Peng :D ','<span class="chinese">彭 子 鳶</span> :P' ],
+                    typeSpeed: 200,
+                    loop: true, 
+                    showCursor: true,
+                    cursorChar: '|',
+                });
+    </script>
+
 </body>
 </html>
