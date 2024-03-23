@@ -8,8 +8,6 @@
 
 
 .homeIntro{
-    // height: calc(100vh - 24px - 100px);
-    // position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,6 +85,7 @@
 
 .homeIntro{
   position: relative;
+  top:50%;
   .planet{
     .mars{
       position: absolute;

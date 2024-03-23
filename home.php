@@ -62,7 +62,7 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script> -->
     <script>
         const typed = new Typed('#element', {
-                    strings: ['Aliccccce :>', 'Zi Yuan Peng :)','Alice Peng :D ','<span class="chinese">彭 子 鳶</span> :P' ],
+                    strings: ['Aliccccce :>', 'Zi Yuan Peng :)','<span class="chinese">彭 子 鳶</span> :D'],
                     typeSpeed: 200,
                     loop: true, 
                     showCursor: true,
