@@ -1,6 +1,6 @@
 
 <header class='header'>
-       <div class='logo'><a href="home.php"> <img src="./img/logo/logo.png" alt="logo"></a></div>
+       <div class='logo'><a href="index.php"> <img src="./img/logo/logo.png" alt="logo"></a></div>
 
         <div>
             <nav class="navigation">
