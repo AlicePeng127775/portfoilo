@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
+    <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title> Alice's Portfolio</title>
 </head>
@@ -25,7 +26,7 @@
                 <h4>Little Fish Cares Animal Adoption Website</h4>
                 <p>Tool：HTML , CSS, JavaScript, Visual Studio Code,  Figma, illusttetor</p>
                 <p>Introduction：little fish cares is a pet adoption organization in Vancouver. The purpose of this project is to demonstrate the use of HTML, CSS, JavaScript combined with other JavaScript libraries and JQ plugins to complete web pages.</p>
-                <a href='project1.php'class='viweBtn'> Viwe Project</a>
+                <a href='project1.php'class='viweBtn1'> Viwe Project</a>
             </div>
         </div>
 
@@ -35,7 +36,7 @@
                 <h4>Lumina online shopping Website</h4>
                 <p>Tool：HTML , CSS, JavaScript, Visual Studio Code , Figma</p>
                 <p>Introduction：Aenean maximus sapien et libero laoreet, eu egestas metus ornare. Suspendisse quis tortor et tortor tincidunt elementum ut convallis purus. Maecenas ut eros in dui consectetur finibus. Mauris quam ante,</p>
-                <a href='project2.php' class='viweBtn'> Viwe Project</a>
+                <a href='project2.php' class='viweBtn1'> Viwe Project</a>
             </div>
         </div>
 
@@ -45,7 +46,7 @@
                 <h4>Whac-A-Mole Website Game</h4>
                 <p>Tool：HTML , CSS, JavaScript, Visual Studio Code , Illusttretor</p>
                 <p>Introduction：Aenean maximus sapien et libero laoreet, eu egestas metus ornare. Suspendisse quis tortor et tortor tincidunt elementum ut convallis purus. Maecenas ut eros in dui consectetur finibus. Mauris quam ante,</p>
-                <a href='project3.php' class='viweBtn'> Viwe Project</a>
+                <a href='project3.php' class='viweBtn1'> Viwe Project</a>
             </div>
         </div>
 
@@ -55,9 +56,14 @@
                 <h4>October shopping app design</h4>
                 <p>Tool：Figma & Maze </p>
                 <p>Introduction：Aenean maximus sapien et libero laoreet, eu egestas metus ornare. Suspendisse quis tortor et tortor tincidunt elementum ut convallis purus. Maecenas ut eros in dui consectetur finibus. Mauris quam ante,  </p>
-                <a href='project4.php' class='viweBtn'> Viwe Project</a>
+                <a href='project4.php' class='viweBtn1'> Viwe Project</a>
             </div>
         </div>
+    </div>
+    <div class='contactIcon'>
+                <div class='github'><a href='https://github.com/AlicePeng127775'><i class="fa-brands fa-github"></i></a></div>
+                <div class='linkedin'><a href='www.linkedin.com/in/ziyuan-peng'><i class="fa-brands fa-linkedin-in"></i></a></div>
+                <div class='email'><a href='mailto:yuan127775@gmail.com'><i class="fa-solid fa-envelope"></i></a></div>
     </div>
     <div class='content-wrap'></div>
     </main>

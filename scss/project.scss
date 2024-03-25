@@ -19,11 +19,10 @@
 
 .linkBtn{
     display: flex;
-    flex-wrap: wrap;
-    gap: 1px;
+    flex-direction: column;
+    gap: 10px;
     
     a{
-        margin-left: 5px;
         align-items: center;
         i{
             color: v.$yellow;
@@ -44,7 +43,6 @@
 
 .ontherProject{
     .project{
-
         margin:50px auto;
         padding: 20px;
         .projectInfo{
@@ -58,9 +56,9 @@
 }
 
  
-@media screen and (min-width: 1080px)  {
+@media screen and (min-width: 786px)  {
 .linkBtn{
-    display: inline;
+    flex-direction: row;
 }
 }
 

@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     img{
-        width: 60%;
+        width: 80%;
     }
 }
 
@@ -35,11 +35,11 @@
     align-items: center;
 }
 .contactInfo{
-    width: 80%;
+    width: 95%;
     margin: auto;
 
     p{
-        width: 80%;
+        width: 90%;
         margin: auto;
         display: flex;
         flex-wrap: wrap;
@@ -119,10 +119,10 @@
 }
   
 .messageFrom {
-    width:80%;
+    width:95%;
     margin: auto;
     border-radius: 8px;
-    padding: 10px 40px;
+    padding: 10px 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 5%;
@@ -179,7 +179,6 @@
   
 .submitBtn {
     display: block;
-    // margin-left: auto;
     background-color: Transparent;
     padding: 15px 30px;
     border: 0.5px solid v.$pink;

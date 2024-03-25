@@ -58,8 +58,6 @@
     <!------------------------------------------->
     
     <script src='./js/app.js/'></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script> -->
     <script>
         const typed = new Typed('#element', {
                     strings: ['Aliccccce :>', 'Zi Yuan Peng :)','<span class="chinese">彭 子 鳶</span> :D'],

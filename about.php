@@ -12,7 +12,7 @@
     <!----------------- header ------------------>
     <?php require_once("partials/header.php") ?>
     <!------------------------------------------->
-    <main class=''>
+    <main>
     <div class='aboutMe container grid'>
         <div class="photo col-12 col-12-sm col-6-lg ">
             <img src='./img/photo/Alice03.png' alt='alice photo'>
@@ -37,7 +37,7 @@
     </div>
         
     <div class='skill container grid'>
-        <h2 class='col-12'> My Skills</h2>
+        <h2 class='col-12'>My Skill</h2>
 
         <div class='skill-all col-12'>
             <div class='coding grid'>
