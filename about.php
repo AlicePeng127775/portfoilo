@@ -104,7 +104,7 @@
 
         var slidePosition = 1;
         slideShow(slidePosition);
-        var slideInterval = setInterval(function() { plusSlides(1); }, 8000); // Change slides every 5 seconds
+        var slideInterval = setInterval(function() { plusSlides(1); }, 8000); // Change slides every 8 seconds
 
 
         // forward/Back controls
@@ -122,17 +122,17 @@
         function slideShow(n) {
         var i;
         var slides = document.querySelectorAll(".skill-all");
-        var dots = document.querySelectorAll(".dots");
+        // var dots = document.querySelectorAll(".dots");
         if (n > slides.length) {slidePosition = 1}
         if (n < 1) {slidePosition = slides.length}
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" enable", "");
-        }
+        // for (i = 0; i < dots.length; i++) {
+        //     dots[i].className = dots[i].className.replace(" enable", "");
+        // }
         slides[slidePosition-1].style.display = "block";
-        dots[slidePosition-1].className += " enable";
+        // dots[slidePosition-1].className += " enable";
         } 
 
         function resetSlideInterval() {

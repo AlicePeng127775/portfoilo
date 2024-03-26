@@ -55,7 +55,7 @@
             <div class='projectImg'><img src='./img/project/project2.png'  alt="Lumina online shopping Website"></div>
             <div class='projectInfo'>
                 <h4>Lumina online shopping Website</h4>
-                <a href='project2.php' class='viweBtn'> Viwe Project</a>
+                <a href='project2.php' class='viewBtn'> View Project</a>
             </div>
         </div>
 
@@ -63,7 +63,7 @@
             <div class='projectImg'><img src='./img/project/project3.png' alt="Whac-A-Mole Website Game"></div>
             <div class='projectInfo'>
                 <h4>Whac-A-Mole Website Game</h4>
-                <a href='project3.php' class='viweBtn'> Viwe Project</a>
+                <a href='project3.php' class='viewBtn'> View Project</a>
             </div>
         </div>
 
@@ -71,7 +71,7 @@
             <div class='projectImg'><img src='./img/project/project4.png' alt="October shopping app design"></div>
             <div class='projectInfo'>
                 <h4>October shopping app design</h4>
-                <a href='project4.php' class='viweBtn'> Viwe Project</a>
+                <a href='project4.php' class='viewBtn'> View Project</a>
             </div>
         </div>
         </div>
