@@ -1,0 +1,98 @@
+.portfolioTitle {
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolioTitle h5 {
+  color: #F4F5F7;
+}
+.portfolioTitle p {
+  margin: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #d9d9d9;
+}
+
+.project {
+  margin: 40px 0px;
+  background-color: #0e0e0e;
+  border-radius: 30px;
+  border: 0.5px solid #2f2f2f;
+}
+.project .projectImg img {
+  width: 100%;
+}
+.project .projectInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: start;
+  padding: 24px;
+}
+.project .projectInfo h4 {
+  color: #F4F5F7;
+}
+.project .projectInfo p {
+  color: #d9d9d9;
+  line-height: 150%;
+}
+.project .projectInfo a {
+  width: 180px;
+  height: 40px;
+  position: relative;
+  padding: 10px 30px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #F7f26d;
+  border: 0.5px solid #F7f26d;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.project .projectInfo a:hover {
+  background-color: #F7f26d;
+  color: #000;
+  box-shadow: 0 0 40px #F7f26d;
+}
+
+.contactIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 0;
+}
+.contactIcon div {
+  width: 60px;
+  height: 60px;
+  background-color: #292732;
+  border-radius: 50%;
+  color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactIcon div a i {
+  color: #F4F5F7;
+}
+.contactIcon div:hover {
+  background-color: #FAACAC;
+  color: #000;
+  box-shadow: 0 0 10px #FAACAC;
+}
+
+@media screen and (min-width: 834px) {
+  .project:nth-child(even) .projectImg {
+    order: 2;
+  }
+  .project:nth-child(even) .projectInfo {
+    text-align: end;
+  }
+  .project:nth-child(even) .projectInfo .viweBtn1 {
+    margin-left: auto;
+  }
+}/*# sourceMappingURL=portfolio.css.map */

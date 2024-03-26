@@ -1,0 +1,45 @@
+.projectInfo div {
+  align-items: baseline;
+}
+.projectInfo p {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.linkBtn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.linkBtn a {
+  align-items: center;
+}
+.linkBtn a i {
+  color: #F7f26d;
+  margin-right: 5px;
+}
+.linkBtn a:hover i {
+  color: #000;
+}
+
+.other {
+  font-size: 25px;
+  color: #F4F5F7;
+}
+
+.ontherProject .project {
+  margin: 50px auto;
+  padding: 20px;
+}
+.ontherProject .project .projectInfo {
+  text-align: start;
+}
+.ontherProject .project a {
+  margin-right: auto;
+}
+
+@media screen and (min-width: 786px) {
+  .linkBtn {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=project.css.map */

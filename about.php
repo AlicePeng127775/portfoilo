@@ -39,37 +39,55 @@
     <div class='skill container grid'>
         <h2 class='col-12'>My Skill</h2>
 
-        <div class='skill-all col-12'>
-            <div class='coding grid'>
-                <?php 
-                    $codingskill = array('HTML', 'CSS', 'Java Script','PHP','SCSS','MySQL','Node.js','Wordpress');
+        <div class='col-12'>
+            <div class='fade skill-all'>
+                <div class=' grid'>
+                    <?php 
+                        $codingskill = array('HTML', 'CSS', 'Java Script','PHP','SCSS','MySQL','Node.js','Wordpress');
 
-                    foreach($codingskill as $value){
-                        echo "<div class='skillCard col-6 col-3-lg'>
-                        <div class='iconC'>
-                        <img src='./img/skill/coding/$value.png' alt='$value logo'>
-                        </div>
-                        <p>$value</p>
-                        </div>";
-                    }
-                ?>
-            </div>
-
-            <div class='design grid'>
-                <?php 
-                        $designskill = array('PhotoShop', 'Illustrator', 'InDesign','Dimension','Premiere','After Effects','Audition','Figma');
-
-                        foreach($designskill as $value){
+                        foreach($codingskill as $value){
                             echo "<div class='skillCard col-6 col-3-lg'>
                             <div class='iconC'>
-                            <img src='./img/skill/design/$value.png' alt='$value logo'>
+                            <img src='./img/skill/coding/$value.png' alt='$value logo'>
                             </div>
                             <p>$value</p>
                             </div>";
                         }
-                ?>
+                    ?>
+                </div>
+            </div>
+            
+
+            <div class='fade skill-all'>
+                <div class='grid'>
+                    <?php 
+                            $designskill = array('Photoshop', 'Illustrator', 'InDesign','Dimension','Premiere','After Effects','Audition','Figma');
+
+                            foreach($designskill as $value){
+                                echo "<div class='skillCard col-6 col-3-lg'>
+                                <div class='iconC'>
+                                <img src='./img/skill/design/$value.png' alt='$value logo'>
+                                </div>
+                                <p>$value</p>
+                                </div>";
+                            }
+                    ?>
+                </div>
             </div>
         </div>
+
+                    <!-- Back and forward buttons -->
+					<a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="forward" onclick="plusSlides(1)">&#10095;</a>
+				
+					<br>
+					
+					<!-- The circles/dots -->
+					<!-- <div style="text-align:center">
+					<span class="dots" onclick="currentSlide(1)"></span>
+					<span class="dots" onclick="currentSlide(2)"></span>
+					<span class="dots" onclick="currentSlide(3)"></span>
+					</div>  -->
     </div>
     </main>
     <div class='content-wrap'></div>
@@ -79,5 +97,48 @@
     
     <script src='js/app.js/'></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        //===========================//
+        //  Home page - slideShow    //
+        //===========================//
+
+        var slidePosition = 1;
+        slideShow(slidePosition);
+        var slideInterval = setInterval(function() { plusSlides(1); }, 8000); // Change slides every 5 seconds
+
+
+        // forward/Back controls
+        function plusSlides(n) {
+        slideShow(slidePosition += n);
+        resetSlideInterval();
+        }
+
+        //  images controls
+        function currentSlide(n) {
+        slideShow(slidePosition = n);
+        resetSlideInterval();
+        }
+
+        function slideShow(n) {
+        var i;
+        var slides = document.querySelectorAll(".skill-all");
+        var dots = document.querySelectorAll(".dots");
+        if (n > slides.length) {slidePosition = 1}
+        if (n < 1) {slidePosition = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" enable", "");
+        }
+        slides[slidePosition-1].style.display = "block";
+        dots[slidePosition-1].className += " enable";
+        } 
+
+        function resetSlideInterval() {
+        clearInterval(slideInterval);
+        slideInterval = setInterval(function() { plusSlides(1); }, 8000); // Reset the timer
+        }
+    </script>
 </body>
 </html>

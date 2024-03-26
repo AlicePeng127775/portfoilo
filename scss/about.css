@@ -1,0 +1,152 @@
+.aboutMe {
+  color: #F4F5F7;
+  align-items: last baseline;
+}
+.aboutMe .photo img {
+  width: 80%;
+  margin: 0 auto;
+}
+.aboutMe .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.aboutMe .info p {
+  margin: 20px auto;
+  line-height: 180%;
+  color: #d9d9d9;
+}
+.aboutMe .info .contactIcon {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  margin-bottom: 0;
+}
+.aboutMe .info .contactIcon div {
+  width: 60px;
+  height: 60px;
+  background-color: #292732;
+  border-radius: 50%;
+  color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutMe .info .contactIcon div a i {
+  color: #F4F5F7;
+}
+.aboutMe .info .contactIcon div:hover {
+  background-color: #FAACAC;
+  color: #000;
+  box-shadow: 0 0 10px #FAACAC;
+}
+
+.skill {
+  position: relative;
+}
+.skill h2 {
+  margin-top: 50px;
+  font-size: 31.25px;
+  color: #fff;
+}
+
+.skill-all {
+  display: none;
+  margin: auto;
+  width: 90%;
+}
+
+.skillCard {
+  max-width: 180px;
+  border-radius: 20%;
+  padding: 5%;
+  margin-top: 20px;
+  background-color: #1b1b22;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skillCard .iconC {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(244, 245, 247, 0.2);
+}
+.skillCard .iconC img {
+  width: 60%;
+}
+.skillCard p {
+  margin-top: 20px;
+  color: #F4F5F7;
+}
+
+.skillCard:hover {
+  background-color: black;
+}
+
+.skillCard:hover .iconC {
+  background-color: #F4F5F7;
+}
+
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 17px;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+.Back {
+  left: 0;
+}
+
+.Back:hover, .forward:hover {
+  background-color: var(--dark);
+}
+
+.dots {
+  cursor: pointer;
+  bottom: 10px;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+  background-color: #717161;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 2;
+  }
+}/*# sourceMappingURL=about.css.map */
