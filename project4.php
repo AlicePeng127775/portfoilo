@@ -42,6 +42,9 @@
                     After that, I started searching and adding product images and content, aligning them with Grid features, changing my wireframes to high quality, adding interactive features to make all the buttons work, changing pages, adding animations, and etc.</p>
                     <h6>Testing and modification:<h6>
                     <p>For this project, I asked for a user test using "Maze", and I prepared 6 tasks which included, browsing products, finding online customer service, opening a wish list, deleting items from the shopping bag, completing the checkout process, viewing the order history and finally giving me feedback!</p>
+
+                    <h6>Copyright:</h6>
+                    <p>The images I used in this project came from Envato Elements.</p>
                 </div>
             </div>
             <div class='projectImg col-12'><img src='./img/project/project4.png' alt="October shopping app design"></div>
@@ -54,7 +57,7 @@
             <div class='projectImg'><img src='./img/project/project1.png'  alt="Little Fish Cares Animal Adoption Website"></div>
             <div class='projectInfo'>
                 <h4>Little Fish Cares Animal Adoption Website</h4>
-                <a href='project2.php' class='viewBtn'> View Project</a>
+                <a href='project1.php' class='viewBtn'> View Project</a>
             </div>
         </div>
 
@@ -62,7 +65,7 @@
             <div class='projectImg'><img src='./img/project/project2.png' alt="Lumina online shopping Website"></div>
             <div class='projectInfo'>
                 <h4>Lumina online shopping Website</h4>
-                <a href='project3.php' class='viewBtn'> View Project</a>
+                <a href='project2.php' class='viewBtn'> View Project</a>
             </div>
         </div>
 

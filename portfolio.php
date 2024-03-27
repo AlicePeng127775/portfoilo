@@ -35,7 +35,7 @@
             <div class='projectInfo col-12 col-6-lg'>
                 <h4>Lumina online shopping Website</h4>
                 <p>Tool：HTML , CSS, JavaScript, Visual Studio Code , Figma</p>
-                <p>Introduction：Aenean maximus sapien et libero laoreet, eu egestas metus ornare. Suspendisse quis tortor et tortor tincidunt elementum ut convallis purus. Maecenas ut eros in dui consectetur finibus. Mauris quam ante,</p>
+                <p>Introduction：lumina is a candle shop located in Vancouver, this project requires our team to design and develop their online shopping website, the entire webpage was designed using Figma to design the wireframes and developed in HTML, CSS, JavaScirt, </p>
                 <a href='project2.php' class='viewBtn1'> View Project</a>
             </div>
         </div>
@@ -45,7 +45,7 @@
             <div class='projectInfo col-12 col-6-lg'>
                 <h4>Whac-A-Mole Website Game</h4>
                 <p>Tool：HTML , CSS, JavaScript, Visual Studio Code , Illusttretor</p>
-                <p>Introduction：Aenean maximus sapien et libero laoreet, eu egestas metus ornare. Suspendisse quis tortor et tortor tincidunt elementum ut convallis purus. Maecenas ut eros in dui consectetur finibus. Mauris quam ante,</p>
+                <p>Introduction：This is a small web game, the player mainly uses the mouse to control the hammer, to knock the mouse to get points, cute graphics with background music and percussion sound effects to make the game more interesting!</p>
                 <a href='project3.php' class='viewBtn1'> View Project</a>
             </div>
         </div>

@@ -32,18 +32,17 @@
                 </div>
 
                 <p>Tool：HTML , CSS, JavaScript, Visual Studio Code,  Figma, illusttetor</p>
-                <p class='projectIntro'>
-                    Introduction：For the Little Fish Cares pet adoption organization project in Vancouver, 
-                    I focused on creating a dynamic, professional webpage using HTML, CSS, and JavaScript,
-                     along with various libraries and plugins. The development process involved integrating 
-                     JavaScript to allow for easy updating of homepage banner images without altering code, 
-                     choosing AOS.js for scroll animations due to its simplicity, and implementing Bootstrap 
-                     for responsive slideshows, Fancybox for image zoom, Typed.js for engaging typewriter 
-                     effects on headlines, and Leaflet.js for an interactive map to future-proof location 
-                     additions. Challenges arose when JavaScript functions clashed due to being in the same file,
-                      a problem solved with guidance from my tutor, highlighting the importance of organized 
-                      script management.
-                </p>
+                <div class='projectIntro'>
+                    <h6>Introduction：</h6>
+
+                    <p>little fish cares is a pet adoption organization in Vancouver. The purpose of this project is to demonstrate the use of HTML, CSS, JavaScript combined with other JavaScript libraries and JQ plugins to complete web pages.</p>
+
+                    <h6>Development:</h6>
+                    <p>In the programming, I will be taught in the classroom used to switch images JavaScript integration into my home page banner images so that they can be constantly replaced, and in the future the image needs to be replaced in fact do not need to change the HTML and CSS and JS parts, just need to re-upload the image can be.I was also learning and experimenting with different JavaScript libraries, and eventually I chose AOS .js for my webpage scrolling animation because I only needed to have something to display when scrolling to the content Compared to ScrollMagic, it's much more suitable for a normal website. I also used Bootstrap for the slideshow part of the website, which saves me the time of making a responsive website. I also used Fancybox to show the zoom function, and Typed.js to make the typewriter function for the headline, which makes my homepage more playful and cute. Finally, I used Leaflet.js to create a map, so that even if little fish cares to add a new location in the future, it can be marked on the map, which is very flexible and convenient.</p>
+
+                    <h6>Copyright:</h6>
+                    <p>The images I used in this project are from adobe stock, the textual content part of the Little Fish Care story is from Chinese folk tales, and all others are originals.</p>
+                </div>
             </div>
             <div class='projectImg col-12'><img src='./img/project/project1.png' alt="little fish cares website"></div>
 

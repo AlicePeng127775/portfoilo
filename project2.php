@@ -32,9 +32,17 @@
                 </div>
 
                 <p>Tool：HTML , CSS, SCSS, JavaScript, Visual Studio Code, Figma</p>
-                <p class='projectIntro'>
-                    Introduction：
-                </p>
+                <div class='projectIntro'>
+                    <h6>Introduction：</h6>
+                    <p>lumina is a candle shop located in Vancouver, this project requires our team to design and develop their online shopping website, the entire webpage was designed using Figma to design the wireframes and developed in HTML, CSS, JavaScirt, </p>
+
+                    <h6>Brainstorming and Design:</h6>
+                    <p>In this project, our team used agile methodology, at the beginning of the project Sprint 1 phase, our team built the basic framework and functionality of the website for lumina using user stories, our web designer designed the initial version of the wireframes for the website, and after continuous meetings and discussions and changes to make the website more aesthetically pleasing, we finally collaborated on the finalization of the The wireframes were finalized in collaboration with our web designer.</p>
+                    <h6>Development and Testing:</h6>
+                    <p>After completing the website wireframe, I began developing the website. Meanwhile the content creators were working on the content, so in sprint 2 I had to make the basic framework of HTML and CSS first, and then follow the progress of the content creators to update the web content and add functionality in sprints 3, 4, and 5. In the process, our product owner was constantly testing and giving feedback, and I would make adjustments before the next regular meeting.</p>
+                    <h6>Copyright:</h6>
+                    <p>The images we used in this project came from adobe stock and the text content came from our content creators.</p>
+                </div>
             </div>
             <div class='projectImg col-12'><img src='./img/project/project2.png' alt="Lumina online shopping Website"></div>
 
@@ -46,7 +54,7 @@
             <div class='projectImg'><img src='./img/project/project1.png'  alt="Little Fish Cares Animal Adoption Website"></div>
             <div class='projectInfo'>
                 <h4>Little Fish Cares Animal Adoption Website</h4>
-                <a href='project2.php' class='viewBtn'> View Project</a>
+                <a href='project1.php' class='viewBtn'> View Project</a>
             </div>
         </div>
 
