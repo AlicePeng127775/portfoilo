@@ -21,7 +21,7 @@
     </div>
     <div class='allProject container'>
         <div class='project grid'>
-            <div class='projectInfo col-12'>
+            <div class='projectInfo col-12' data-aos="fade-up">
                 <div class='grid'>
                     <h4 class='col-12 col-7-lg '>Little Fish Cares Animal Adoption Website</h4> 
                     <div class='linkBtn col-12 col-5-lg'>
@@ -49,7 +49,7 @@
 
         </div>
         <h2 class='other'>Other Project</h2>
-        <div class='ontherProject container grid'>
+        <div class='ontherProject container grid' data-aos="fade-up">
            
         <div class='project col-12 col-4-lg'>
             <div class='projectImg'><img src='./img/project/project2.png'  alt="Lumina online shopping Website"></div>
@@ -86,6 +86,7 @@
     <!----------------- footer ------------------>
     <?php require_once("partials/footer.php") ?>
     <!------------------------------------------->
-    <script src='js/app.js/'></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src='./js/app.js'></script>
 </body>
 </html>
