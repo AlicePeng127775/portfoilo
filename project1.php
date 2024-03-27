@@ -23,8 +23,8 @@
         <div class='project grid'>
             <div class='projectInfo col-12' data-aos="fade-up">
                 <div class='grid'>
-                    <h4 class='col-12 col-7-lg '>Little Fish Cares Animal Adoption Website</h4> 
-                    <div class='linkBtn col-12 col-5-lg'>
+                    <h4 class='col-12 col-8-lg '>Little Fish Cares Animal Adoption Website</h4> 
+                    <div class='linkBtn col-12 col-4-lg'>
                         <a><i class="fa-solid fa-link"></i>Lauch&nbsp;Site</a>
                         <a><i class="fa-brands fa-github"></i>View&nbsp;Code</a>
                     </div>
