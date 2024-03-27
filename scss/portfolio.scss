@@ -36,14 +36,23 @@
         justify-content: space-around;
         text-align: start;
         padding: 24px;
+        div{
+            
+            h6{
+                color: v.$pink;
+            }
+            p{
+                color:v.$gray;
+                line-height: 150%;
+               }
+        }
+        p{
+            color:v.$gray;
+            line-height: 150%;
+           }
         
        h4{
         color:v.$pc;
-       }
-
-       p{
-        color:v.$gray;
-        line-height: 150%;
        }
 
        a{

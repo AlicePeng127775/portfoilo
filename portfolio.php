@@ -55,7 +55,7 @@
             <div class='projectInfo col-12 col-6-lg'>
                 <h4>October shopping app design</h4>
                 <p>Tool：Figma & Maze </p>
-                <p>Introduction：Aenean maximus sapien et libero laoreet, eu egestas metus ornare. Suspendisse quis tortor et tortor tincidunt elementum ut convallis purus. Maecenas ut eros in dui consectetur finibus. Mauris quam ante,  </p>
+                <p>Introduction： October is an original Accessories company, In this project I need to design App for they and create wireframe and interaction model using Figma and finally user testing using Maze. Modify the model based on the test results,  </p>
                 <a href='project4.php' class='viewBtn1'> View Project</a>
             </div>
         </div>
