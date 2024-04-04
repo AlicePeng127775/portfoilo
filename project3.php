@@ -31,7 +31,7 @@
 
                 </div>
 
-                <p>Tool：HTML , CSS, JavaScript, Visual Studio Code , Illusttretor</p>
+                <p class="tool">Tool：HTML , CSS, JavaScript, Visual Studio Code , Illusttretor</p>
                 <div class='projectIntro'>
                 <h6>Introduction：</h6>
                 <p>This is a small web game, the player mainly uses the mouse to control the hammer, to knock the mouse to get points, cute graphics with background music and percussion sound effects to make the game more interesting!</p>

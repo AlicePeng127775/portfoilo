@@ -31,7 +31,7 @@
 
                 </div>
 
-                <p>Tool：HTML , CSS, JavaScript, Visual Studio Code,  Figma, illusttetor</p>
+                <p  class="tool">Tool：HTML , CSS, JavaScript, Visual Studio Code,  Figma, illusttetor</p>
                 <div class='projectIntro'>
                     <h6>Introduction：</h6>
 

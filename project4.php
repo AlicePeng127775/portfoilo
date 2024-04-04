@@ -30,7 +30,7 @@
 
                 </div>
 
-                <p>Tool：Figma and Maze</p>
+                <p class="tool">Tool：Figma and Maze</p>
                 <div class='projectIntro'>
                     <h6>Introduction:</h6>
                     <p>October is an original Accessories company, In this project  need to design App for they and create wireframe and interaction model using Figma and finally user testing using Maze. Modify the model based on the test results</p>

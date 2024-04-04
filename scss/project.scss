@@ -8,12 +8,26 @@
 
 .projectInfo {
 
-    width: 90%;
-    margin: 20px auto;
-
     div{
         align-items: baseline;
+    }
 
+    .tool{
+        margin-top: 20px;
+    }
+    .projectIntro{
+        margin-top: 20px;
+      
+        h6{
+            color: v.$pink;
+        }
+        p{
+            color:v.$gray;
+            line-height: 150%;
+            width: 90%;
+            margin: 20px auto;
+        }
+  
     }
 
 }

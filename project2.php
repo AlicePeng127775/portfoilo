@@ -31,7 +31,7 @@
 
                 </div>
 
-                <p>Tool：HTML , CSS, SCSS, JavaScript, Visual Studio Code, Figma</p>
+                <p class="tool">Tool：HTML , CSS, SCSS, JavaScript, Visual Studio Code, Figma</p>
                 <div class='projectIntro'>
                     <h6>Introduction：</h6>
                     <p>lumina is a candle shop located in Vancouver, this project requires our team to design and develop their online shopping website, the entire webpage was designed using Figma to design the wireframes and developed in HTML, CSS, JavaScirt, </p>

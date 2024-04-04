@@ -36,20 +36,13 @@
         flex-direction: column;
         justify-content: space-around;
         text-align: start;
+        gap: 10px;
         padding: 24px;
-        div{
-            
-            h6{
-                color: v.$pink;
-            }
-            p{
-                color:v.$gray;
-                line-height: 150%;
-               }
-        }
+
         p{
             color:v.$gray;
             line-height: 150%;
+            width: 100%;
            }
         
        h4{
