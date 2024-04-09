@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Discover the October Shopping App Design project by Alice Peng, featuring an innovative user experience and interface designed using Figma and tested with Maze. Explore the design process, from brainstorming to user testing.">
+    <meta name="keywords" content="October Shopping App, App Design, UX Design, UI Design, Figma, Maze, Alice Peng, Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title> Alice's Project</title>
+    <title> Alice's Project | October Shopping App Design</title>
 </head>
 <body>
     <!----------------- header ------------------>

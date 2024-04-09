@@ -2,24 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="Alice, web development, front-end development, web design, designer">
+    <meta name="description" content="Welcome to Alice's Web - Explore the world of web development and design with Alice, a Front-End Developer and Designer.">
+    <meta name="keywords" content="Alice Peng web development, front-end development, Ui/Ux designer">
     <meta name="author" content="Alice Peng">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Add Open Graph metadata -->
-    <meta property="og:title" content="Welcome to Alice's Web">
-    <meta property="og:description" content="Explore the world of web development and design with Alice, a Front-End Developer and Designer.">
-    <meta property="og:image" content="https://alicccccc.com/img/photo/Alice03.png">
-    <meta property="og:url" content="https://alicccccc.com">
 
-    <!-- Add Twitter Card metadata -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Welcome to Alice's Web">
-    <meta name="twitter:description" content="Explore the world of web development and design with Alice, a Front-End Developer and Designer.">
-    <meta name="twitter:image"  content="https://alicccccc.com/img/photo/Alice03.png">
-    <link rel="icon" type="image/x-icon" href="./img/photo/icon.svg">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dist/app.css">
     <!-- aos Animate On Scroll Library -->
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>

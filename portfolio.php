@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Alice Peng's Portfolio showcases a wide range of web development projects, including UI/UX design, WordPress, and React development. Explore innovative designs and solutions.">
+    <meta name="keywords" content="Alice Peng, Portfolio, Web Development, UI/UX Design, WordPress, React, HTML, CSS, JavaScript">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>

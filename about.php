@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Alice Peng is a creative Front-End Developer and UI/UX Designer with a passion for crafting intuitive and engaging digital experiences. Specializing in responsive design and user-centric interfaces, I leverages technologies like HTML, CSS, JavaScript, and tools like Figma to bring innovative ideas to life.">
+    <meta name="keywords" content="Alice Peng web development, front-end development, Ui/Ux designer">
+    <meta name="author" content="Alice Peng">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="dist/app.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
-    <title>About Alice</title>
+    <title>About Alice - Front-End Developer and UI/UX Designer</title>
 </head>
 <body>
     <!----------------- header ------------------>

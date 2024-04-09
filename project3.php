@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Explore the Whac-A-Mole Website Game project by Alice Peng, an interactive web game developed with HTML, CSS, JavaScript, and custom illustrations. Discover the development journey, from brainstorming to implementation, and play the game.">
+    <meta name="keywords" content="Whac-A-Mole Game, Web Development, Web Game,HTML Game, HTML, CSS, JavaScript, Alice Peng, Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title> Alice's Project</title>
+    <title> Alice's Project | Whac-A-Mole Game</title>
 </head>
 <body>
     <!----------------- header ------------------>

@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Discover the Lumina Online Shopping Website project by Alice Peng, showcasing a responsive and user-friendly e-commerce site designed with HTML, CSS, SCSS, JavaScript, and Figma.">
+    <meta name="keywords" content="Alice Peng, Lumina Shopping Website, Web Development, E-commerce Design, HTML, CSS, SCSS, JavaScript, Figma, Portfolio">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title> Alice's Project</title>
+    <title> Alice's Project | Lumina Online Shopping Website</title>
 </head>
 <body>
     <!----------------- header ------------------>
