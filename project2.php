@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="dist/app.css">
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/img/logo/icon.png">
     <title> Alice's Project | Lumina Online Shopping Website</title>
 </head>
 <body>

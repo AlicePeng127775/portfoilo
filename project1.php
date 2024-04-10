@@ -6,6 +6,7 @@
     <meta name="keywords" content="Alice Peng, Web Development, UI/UX Design, HTML, CSS, JavaScript, Visual Studio Code, WordPress, React, Portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/app.css">
+    <link rel="icon" type="image/x-icon" href="/img/logo/icon.png">
     <script src="https://kit.fontawesome.com/92a4d8c871.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title> Alice's Project | Little Fish Cares</title>
