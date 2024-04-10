@@ -66,7 +66,7 @@
     <script>
         const typed = new Typed('#element', {
                     strings: ['Aliccccce :>', 'Zi Yuan Peng :)','<span class="chinese">彭 子 鳶</span> :D'],
-                    typeSpeed: 200,
+                    typeSpeed: 150,
                     loop: true, 
                     showCursor: true,
                     cursorChar: '|',
