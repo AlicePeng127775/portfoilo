@@ -27,8 +27,8 @@
                 <div class='grid'>
                     <h4 class='col-12 col-8-lg '>Whac-A-Mole Website Game</h4> 
                     <div class='linkBtn col-12 col-4-lg'>
-                        <a><i class="fa-solid fa-link"></i>Play&nbsp;Game</a>
-                        <a><i class="fa-brands fa-github"></i>View&nbsp;Code</a>
+                        <a href='https://whac-a-mole.alicccccc.com/'><i class="fa-solid fa-link"></i>Play&nbsp;Game</a>
+                        <a href='https://github.com/AlicePeng127775/Whac-A-Mole-Website-Game.git'><i class="fa-brands fa-github"></i>View&nbsp;Code</a>
                     </div>
 
                 </div>

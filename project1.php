@@ -27,8 +27,8 @@
                 <div class='grid'>
                     <h4 class='col-12 col-8-lg '>Little Fish Cares Animal Adoption Website</h4> 
                     <div class='linkBtn col-12 col-4-lg'>
-                        <a><i class="fa-solid fa-link"></i>Lauch&nbsp;Site</a>
-                        <a><i class="fa-brands fa-github"></i>View&nbsp;Code</a>
+                        <a href="https://littlefishcares.alicccccc.com/"><i class="fa-solid fa-link"></i>Lauch&nbsp;Site</a>
+                        <a href="https://github.com/AlicePeng127775/littlefishcares"><i class="fa-brands fa-github"></i>View&nbsp;Code</a>
                     </div>
 
                 </div>

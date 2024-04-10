@@ -27,7 +27,7 @@
                 <div class='grid'>
                     <h4 class='col-12 col-10-lg '>October shopping app design</h4> 
                     <div class='linkBtn col-12 col-2-lg'>
-                        <a><i class="fa-brands fa-figma"></i>View&nbsp;Model</a>
+                        <a href="https://www.figma.com/proto/kekDaDo40WDLqUc19SJCMa/Alice_Guo_Figma?type=design&node-id=9-3971&t=pPfpMEEEntN3WXHW-1&scaling=scale-down&page-id=0%3A1&mode=design"><i class="fa-brands fa-figma"></i>View&nbsp;Model</a>
                     </div>
 
                 </div>
