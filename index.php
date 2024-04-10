@@ -6,6 +6,7 @@
     <meta name="keywords" content="Alice Peng web development, front-end development, Ui/Ux designer">
     <meta name="author" content="Alice Peng">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/app.css">
 
     <!-- aos Animate On Scroll Library -->
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
