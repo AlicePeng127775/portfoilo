@@ -86,7 +86,7 @@
                 <div class='linkedin'><a href='https://www.linkedin.com/in/ziyuan-peng/'><i class="fa-brands fa-linkedin-in"></i></a></div>
                 <div class='email'><a href='mailto:yuan127775@gmail.com'><i class="fa-solid fa-envelope"></i></a></div>
     </div>
-    <div class='content-wrap'></div>
+    <!-- <div class='content-wrap'></div> -->
     </main>
     <!----------------- footer ------------------>
     <?php require_once("partials/footer.php") ?>

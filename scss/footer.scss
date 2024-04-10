@@ -6,7 +6,7 @@
   Footer
 \*-----------------------------------*/
 
-footer{
+.footer{
     div{
         font-family: "Balsamiq Sans", sans-serif;
         font-weight: 400;      
@@ -26,13 +26,39 @@ footer{
     }
 }
 
+footer{
+  div{
+      font-family: "Balsamiq Sans", sans-serif;
+      font-weight: 400;      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: v.$pc;
+      width: 100%;
+      background-color: v.$black;
+      height: 24px;
+
+      p{
+        font-size: 12px;
+      }
+  }
+}
+
 
 @media screen and (min-width: 1080px) {
-  footer{
+  .footer{
     div{
         p{
           font-size: v.$text-base;
         }
     }
+}
+
+footer{
+  div{
+      p{
+        font-size: v.$text-base;
+      }
+  }
 }
 }
