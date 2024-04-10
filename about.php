@@ -110,7 +110,7 @@
 
         var slidePosition = 1;
         slideShow(slidePosition);
-        var slideInterval = setInterval(function() { plusSlides(1); }, 8000); // Change slides every 8 seconds
+        var slideInterval = setInterval(function() { plusSlides(1); }, 6000); // Change slides every 8 seconds
 
 
         // forward/Back controls
@@ -143,7 +143,7 @@
 
         function resetSlideInterval() {
         clearInterval(slideInterval);
-        slideInterval = setInterval(function() { plusSlides(1); }, 8000); // Reset the timer
+        slideInterval = setInterval(function() { plusSlides(1); }, 6000); // Reset the timer
         }
     </script>
 </body>
