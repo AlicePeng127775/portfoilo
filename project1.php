@@ -85,7 +85,7 @@
     </div>
     
     </main>
-    <!-- <div class='content-wrap'></div> -->
+    <div class='content-wrap'></div>
     <!----------------- footer ------------------>
     <?php require_once("partials/footer.php") ?>
     <!------------------------------------------->
