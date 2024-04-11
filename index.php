@@ -49,7 +49,7 @@
                 <h2>
                     <span class='echo'>echo</span> Hello ! <br> I'm <span class='alice' id='element'></span><br>
                     FRONT - END DEVELOPER <br>
-                    and DESINGER <br>
+                    and DESIGNER <br>
                 </h2>
 
                 <h6>Nice to meet you here 👋 </h6>
