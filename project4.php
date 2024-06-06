@@ -50,8 +50,7 @@
                     <p>The images I used in this project came from Envato Elements.</p>
                 </div>
             </div>
-            <div class='projectImg col-12'><img src='./img/project/project4.png' alt="October shopping app design"></div>
-
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="1200" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FkekDaDo40WDLqUc19SJCMa%2FAlice_Guo_Figma%3Fnode-id%3D9-3971%26t%3DXnwc0PmhxtQV3N7m-1" allowfullscreen></iframe>
         </div>
         <h2 class='other'>Other Project</h2>
         <div class='ontherProject container grid' data-aos="fade-up">

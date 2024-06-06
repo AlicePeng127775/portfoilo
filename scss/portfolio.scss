@@ -53,7 +53,7 @@
             width: 180px;
             height: 40px;
             position: relative;
-            padding: 10px 30px;
+            padding: 10px 30px 10px 40px;
             font-size: v.$text-base;
             text-decoration: none;
             cursor: pointer;
@@ -115,6 +115,7 @@
         text-align: end;
         .viewBtn1{
             margin-left: auto;
+            padding: 10px 40px 10px 30px;
         }
     
       }

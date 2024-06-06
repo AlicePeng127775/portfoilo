@@ -27,27 +27,103 @@
             <div class='projectInfo col-12' data-aos="fade-up">
                 <div class='grid'>
                     <h4 class='col-12 col-8-lg '>Little Fish Cares Animal Adoption Website</h4> 
-                    <div class='linkBtn col-12 col-4-lg'>
+                    <!-- <div class='linkBtn col-12 col-4-lg'>
                         <a href="https://littlefishcares.alicccccc.com/"><i class="fa-solid fa-link"></i>Lauch&nbsp;Site</a>
                         <a href="https://github.com/AlicePeng127775/littlefishcares"><i class="fa-brands fa-github"></i>View&nbsp;Code</a>
+                    </div> -->
+
+                </div>
+
+                    <div class='toolC'><span class='tool'>HTML</span> <span class='tool'>CSS</span> <span class='tool'>JavaScript</span> <span class='tool'>Visual Studio Code</span> <span class='tool'>Figma</span> <span class='tool'>Illusttretor</span></div>                
+                    
+                    <div class='projectIntro grid'>
+                        <div class='projectIMG col-12 col-6-lg'><img src='./img/project/project1.png'></div>
+                        
+                        <div class='col-12 col-6-lg'>
+                            <h6 >Introduction：</h6>
+
+                            <p>Little fish cares is a pet adoption agency in Vancouver. <br> <br>
+
+                                Their mission statement is:<br>
+                                Every stray animal is a ‘little fish’ and they want to save them.Provide them with medical care. Become their ‘transit station’ and help them find a warm home.<br> <br>
+
+                                The whole project from the information architecture, design Brand style Guide, logo and wireframes, to the web development, are all handled by Alice (me).          
+                            </p>
+
+                        </div>
+
+                        <div class='col-12'>
+                            <h6 >Brainstorm - Information Architecture:</h6>
+
+                            <p>
+                            Before designing a web page for a company, it is important to understand the company's main services, goals, missions, analyze the target audience, hypothetical scenarios, analyze the competitors.
+                            </p>
+
+                        </div>
+                        
+                        <div class='col-12'>
+                            <h6>Design - Style Guide:</h6>
+                            <p>
+                            After completing the Brainstorm information architecture, before developing the website. We need to design a Style Guide for the company, which includes designing the logo, colors, fonts, buttons, wireframes, and mockups.
+                            </p>
+                        </div>
+
+                        <div class='col-12 col-6-lg'>
+                            <h6>Development - hand code:</h6>
+                            <p>
+                            In the programming, I will be taught in
+                            the classroom used to switch images
+                            JavaScript integration into my home page
+                            banner images so that they can be
+                            constantly replaced, and in the future the
+                            image needs to be replaced in fact do not
+                            need to change the HTML and CSS and JS
+                            parts, just need to re-upload the image
+                            can be.<br><br>
+
+
+                            I was also learning and experimenting
+                            with different JavaScript libraries, and
+                            eventually I chose AOS .js for my webpage
+                            scrolling animation because I only needed
+                            to have something to display when
+                            scrolling to the content Compared to
+                            ScrollMagic, it s much more suitable for a
+                            normal website.<br><br>
+
+
+                            I also used Bootstrap for the slideshow
+                            part of the website, which saves me the
+                            time of making a responsive website. I
+                            also used Fancybox to show the zoom
+                            function, and Typed.js to make the
+                            typewriter function for the headline,
+                            which makes my homepage more playful
+                            and cute. <br><br>
+
+
+                            Finally, I used Leaflet.js to create a map, so
+                            that even if little fish cares to add a new
+                            location in the future, it can be marked on
+                            the map, which is very flexible and
+                            convenient.<br><br>
+                            </p>
+                        </div>
+
+                        <div>
+                            
+                        </div>
+
+                        <div class='col-12'>
+                            <h6>Copyright:</h6>
+                            <p>The images I used in this project are from adobe stock, the textual content part of the Little Fish Care story is from Chinese folk tales, and all others are originals.</p>
+                        </div>
+    
                     </div>
-
-                </div>
-
-                <p  class="tool">Tool：HTML , CSS, JavaScript, Visual Studio Code,  Figma, illusttetor</p>
-                <div class='projectIntro'>
-                    <h6>Introduction：</h6>
-
-                    <p>little fish cares is a pet adoption organization in Vancouver. The purpose of this project is to demonstrate the use of HTML, CSS, JavaScript combined with other JavaScript libraries and JQ plugins to complete web pages.</p>
-
-                    <h6>Development:</h6>
-                    <p>In the programming, I will be taught in the classroom used to switch images JavaScript integration into my home page banner images so that they can be constantly replaced, and in the future the image needs to be replaced in fact do not need to change the HTML and CSS and JS parts, just need to re-upload the image can be.I was also learning and experimenting with different JavaScript libraries, and eventually I chose AOS .js for my webpage scrolling animation because I only needed to have something to display when scrolling to the content Compared to ScrollMagic, it's much more suitable for a normal website. I also used Bootstrap for the slideshow part of the website, which saves me the time of making a responsive website. I also used Fancybox to show the zoom function, and Typed.js to make the typewriter function for the headline, which makes my homepage more playful and cute. Finally, I used Leaflet.js to create a map, so that even if little fish cares to add a new location in the future, it can be marked on the map, which is very flexible and convenient.</p>
-
-                    <h6>Copyright:</h6>
-                    <p>The images I used in this project are from adobe stock, the textual content part of the Little Fish Care story is from Chinese folk tales, and all others are originals.</p>
-                </div>
             </div>
-            <div class='projectImg col-12'><img src='./img/project/project1.png' alt="little fish cares website"></div>
+            <!-- <div class='projectImg col-12'><img src='./img/project/project1.png' alt="little fish cares website"></div> -->
+
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FUX5J2rhHJYjz5tuDLmsFdT%2FLittle-Fish-Cares-Wireframe%3Fnode-id%3D341-56776%26t%3DHdzoDnMwK2tRyWPQ-1" allowfullscreen></iframe>
 
         </div>
         <h2 class='other'>Other Project</h2>
@@ -83,7 +159,7 @@
                 <div class='linkedin'><a href='https://www.linkedin.com/in/ziyuan-peng/'><i class="fa-brands fa-linkedin-in"></i></a></div>
                 <div class='email'><a href='mailto:yuan127775@gmail.com'><i class="fa-solid fa-envelope"></i></a></div>
     </div>
-    
+
     </main>
     <div class='content-wrap'></div>
     <!----------------- footer ------------------>

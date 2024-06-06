@@ -9,12 +9,23 @@
 .projectInfo {
 
     div{
-        align-items: baseline;
+        align-items:center;
     }
 
+   
+
     .tool{
-        margin-top: 20px;
+        padding: 3px;
+        background-color: black;
+        color:v.$yellow;
+        font-size: v.$text-base;
+        border:1px solid v.$gray;
+        border-radius: 5px;
+        margin: 10px auto;
+        width: auto;
     }
+
+
     .projectIntro{
         margin-top: 20px;
       
@@ -28,6 +39,14 @@
             margin: 20px auto;
         }
   
+    }
+
+    .projectIMG{
+        width: auto;
+
+        img{
+            width: 100%;
+        }
     }
 
 }
